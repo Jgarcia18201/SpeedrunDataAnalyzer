@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,19 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        FetchRunId();
+    }
+
+    private async void FetchRunId()
+    {
+        using (var context = new DataContext())
+        {
+            var run = await context.TimerRuns.FirstOrDefaultAsync();
+            if (run != null)
+            {
+                DataContext = run;
+            }
+        }
     }
 
     private void Button_Click(object sender, RoutedEventArgs e)
