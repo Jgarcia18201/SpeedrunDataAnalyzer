@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpeedrunDataAnalyzer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80b58e88b2300a0025796b1c33260078c0194ab2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28b1cadd80956a819868eebcf1a07802062d6b73")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpeedrunDataAnalyzer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpeedrunDataAnalyzer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
