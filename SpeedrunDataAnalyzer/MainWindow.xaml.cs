@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -39,6 +41,28 @@ public partial class MainWindow : Window
 
     private void StartButton_Click(object sender, RoutedEventArgs e)
     {
-        
+        string queryString = "SELECT StartTime FROM TimerRuns";
+        string connectionString = "Data Source=DESKTOP-TVG7VL8;Initial Catalog=SpeedrunDB;Integrated Security=True;Trust Server Certificate=True";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            SqlCommand command = new SqlCommand(queryString, connection);
+            //command.Parameters.AddWithValue("@tPatSName", "Your-Parm-Value");
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            try
+            {
+                while (reader.Read())
+                {
+                    Debug.WriteLine(String.Format("{0}",
+                    reader["StartTime"]));// etc
+                }
+            }
+            finally
+            {
+                // Always call Close when done reading.
+                reader.Close();
+            }
+        }
     }
 }

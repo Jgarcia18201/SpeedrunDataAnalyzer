@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|e:\\personalprojects\\speedrundataanalyzer\\speedrundataanalyzer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|e:\\personalprojects\\speedrundataanalyzer\\speedrundataanalyzer\\runmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|solutionrelative:runmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|e:\\personalprojects\\speedrundataanalyzer\\speedrundataanalyzer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|e:\\personalprojects\\speedrundataanalyzer\\speedrundataanalyzer\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2ED19FF-FC6C-4A07-86A9-21F455BBBA29}|SpeedrunDataAnalyzer.csproj|solutionrelative:datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\PersonalProjects\\SpeedrunDataAnalyzer\\SpeedrunDataAnalyzer\\DataContext.cs",
+              "RelativeDocumentMoniker": "DataContext.cs",
+              "ToolTip": "E:\\PersonalProjects\\SpeedrunDataAnalyzer\\SpeedrunDataAnalyzer\\DataContext.cs",
+              "RelativeToolTip": "DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T22:20:46.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RunManager.cs",
               "DocumentMoniker": "E:\\PersonalProjects\\SpeedrunDataAnalyzer\\SpeedrunDataAnalyzer\\RunManager.cs",
               "RelativeDocumentMoniker": "RunManager.cs",
               "ToolTip": "E:\\PersonalProjects\\SpeedrunDataAnalyzer\\SpeedrunDataAnalyzer\\RunManager.cs",
               "RelativeToolTip": "RunManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T15:16:04.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\PersonalProjects\\SpeedrunDataAnalyzer\\SpeedrunDataAnalyzer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -61,7 +78,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "E:\\PersonalProjects\\SpeedrunDataAnalyzer\\SpeedrunDataAnalyzer\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T21:57:41.407Z",
               "EditorCaption": ""
